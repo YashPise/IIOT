@@ -1,0 +1,29 @@
+void setup() {
+   
+pinMode(1, OUTPUT);
+pinMode(2, OUTPUT);
+pinMode(4, OUTPUT);
+pinMode(0, OUTPUT);
+
+}
+void loop() {
+    digitalWrite(1, HIGH);  //turun the led on (HIGH IS THE VOLTAGE LEVEL)
+    delay(1000); //wait for a second
+    digitalWrite(1, LOW);  //turun the led on (HIGH IS THE VOLTAGE LEVEL)
+    delay(1000); //wait for a second
+
+    digitalWrite(2, HIGH);  //turun the led on (HIGH IS THE VOLTAGE LEVEL)
+    delay(1000); //wait for a second
+    digitalWrite(2, LOW);  //turun the led on (HIGH IS THE VOLTAGE LEVEL)
+    delay(1000); //wait for a second
+
+    digitalWrite(4, HIGH);  //turun the led on (HIGH IS THE VOLTAGE LEVEL)
+    delay(1000); //wait for a second
+    digitalWrite(4, LOW);  //turun the led on (HIGH IS THE VOLTAGE LEVEL)
+    delay(1000); //wait for a second
+
+    digitalWrite(0, HIGH);  //turun the led on (HIGH IS THE VOLTAGE LEVEL)
+    delay(1000); //wait for a second
+    digitalWrite(0, LOW);  //turun the led on (HIGH IS THE VOLTAGE LEVEL)
+    delay(1000); //wait for a second
+}
